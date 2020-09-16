@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1199px) {
+ body
+ {
+ 	overflow-x: hidden !important;
+ }
+  .page-numbers {
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+}
+@media only screen and (min-width: 120px) and (max-width: 1024px) {
+  .page-numbers {
+    padding: 0 14px;
+    display: none;
+  }
+  .page-numbers:nth-of-type(2) {
+    position: relative;
+    padding-right: 50px;
+  }
+  .page-numbers:nth-of-type(2)::after {
+    content: "...";
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    left: 45px;
+  }
+  .page-numbers:nth-child(-n + 3), .page-numbers:nth-last-child(-n + 3) {
+    display: block;
+  }
+  .page-numbers:nth-last-child(-n + 4) {
+    padding-right: 14px;
+  }
+  .page-numbers:nth-last-child(-n + 4)::after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 1247px )
+{
+	.card-about{
+		flex: 50%;
+		max-width: 300px;
+		margin-left: 10%;
+	}
+	#brands
+	{
+		margin-top: 150px;
+	}
+
+	#brands img
+	{
+		width: 40% !important;
+		height: 200px;
+
+	}
+	.myNavbar
+	{
+		position: relative !important;
+		z-index: 0;
+
+	} 
+	.myNavbar nav
+	{
+		min-height: 60px !important;
+	}
+} 
+@media screen and (max-width: 1020px ) and (min-width:577px)
+{
+
+	.navbar-brand
+	{
+		display: block !important;
+	}
+	.card-about{
+		flex: 46%;
+		max-width: 250px;
+
+	}
+	.contact .contact-map iframe{
+		border:2px dotted gray;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+
+	}
+	#brands
+	{
+		margin-top: 150px;
+	}
+
+}
+@media screen and (max-width: 576px)
+{
+	body
+	{
+	overflow-x: hidden !important;
+	}
+	.navbar-brand
+	{
+		display: block !important;
+	}
+	.card-about{
+		flex: 100%;
+		max-width: 600px;
+		margin:10px;
+	}
+
+	.contact .contact-map iframe{
+		border:2px dotted gray;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+
+	}
+	.contact .contact-map {
+		margin-bottom: 50px;		
+	}
+	.rent-title
+	{
+		margin-bottom: 40px;
+	}
+	.rentNavigation
+	{
+		justify-content: center;
+	}
+	#brands
+	{
+		margin-top: 100px;
+	}
+	#brands img
+	{
+		width: 60% !important;
+		height: 200px;
+
+	}
+
+	#indexCounter
+	{
+		min-height: 600px;
+	}
+	#indexCounter .row .col-12
+	{
+		margin-top:30px;
+	}
+	.footer-top
+	{
+		padding: 20px 0px;
+		background:#111;
+	}
+	.footer-top .row >div
+	{
+		text-align: center;
+		margin-top: 40px;
+	}
+	.page-navigation .row
+	{
+		justify-content: center;
+	}
+	.contact-footer
+	{
+		margin-top: 250px !important;
+		
+	}
+	#indexContact
+	{
+		min-height: 1550px;
+	}
+	
+	.contact-form2
+	{
+
+		margin-top: 20px;
+	}
+
+}
